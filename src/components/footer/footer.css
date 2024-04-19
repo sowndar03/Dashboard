@@ -1,0 +1,75 @@
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 4rem 6rem; 
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .top .link{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .top .link:hover{
+    color: #01959a;
+  }
+  .top h1 {
+    font-size: 24px;
+  }
+
+  .top p {
+    font-size: 14px;
+  }
+  
+  .bottom {
+    padding-top: 1rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace; 
+  }
+  
+  .bottom div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 .8rem 0;
+  }
+
+  .bottom a{
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+  }
+  .socialicon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem; 
+  }
+
+  @media screen and (max-width: 750px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .footer .link{
+        margin: 1rem 1rem 0 0;
+    }
+    .bottom div{
+        width: 50%;
+    }
+  }
